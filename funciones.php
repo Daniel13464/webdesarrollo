@@ -13,7 +13,7 @@ function multiplicar ($a,$b,$c){
     echo "<h2>"."El resultado es: ".$a*$b*$c."<?h2>";
 }
 function areaCirculo($radio){
-    return pow($lado,2);
+    echo "<h2>"."El area del circulo es: ".pi()*pow($radio,2);
 }
 echo"<h1>"."Funciones en PHP"."</h1><br>";
 echo saludo();
